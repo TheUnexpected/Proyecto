@@ -45,7 +45,6 @@ public class Entradas {
        for (int i = 0; i < lenguaje.length ; i++) {
            System.out.println("posicion "+(i+1));
            lenguaje[i]=leer.next();
-           System.out.println("I"+i);
        }
        
        System.out.println("Ingrese cuantos estados tiene su AFD");
